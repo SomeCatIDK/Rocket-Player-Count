@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net35;net461</TargetFrameworks>
+    <RootNamespace>SomeCatIDK.DiscordPlayerCount</RootNamespace>
+    <Authors>SomeCatIDK</Authors>
+    <PackageProjectUrl>https://github.com/SomeCatIDK/Unturned-Player-Count</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/SomeCatIDK/Unturned-Player-Count/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/SomeCatIDK/Unturned-Player-Count.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Rocket.Core" Version="5.0.0.592" />
+  </ItemGroup>
+
+</Project>
